@@ -1,0 +1,4 @@
+b = int(input("What is the base length of your triangle in metres? "))
+h = int(input("What is the height of your triangle in metres? "))
+area = b * h
+print("The area of your triangle is ", area, "metres")
