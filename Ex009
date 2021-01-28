@@ -1,0 +1,14 @@
+deposit = float(input("What is your total deposit? "))
+years = float(input("How many years of interest would you like to calculate? "))
+interest = deposit * 0.04
+final_amount = (deposit + interest)
+final_amount_two = (final_amount + interest)
+final_amount_three = (final_amount_two + interest)
+l = "S=========================================================S"
+print(l)
+print("The money in your account after 1 year is ₹", final_amount)
+print(l)
+print("The money in your account after 2 years is ₹", final_amount_two)
+print(l)
+print("The money in your account after 3 years is ₹", final_amount_three)
+print(l)
