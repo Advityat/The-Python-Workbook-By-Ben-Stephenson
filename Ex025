@@ -1,0 +1,16 @@
+day = 86400
+hour = 3600
+min = 60
+
+seconds = float(input("Enter the number of seconds: "))
+
+days = seconds/day
+seconds = seconds % day
+
+hours = seconds/hour
+seconds = seconds % hour
+
+minutes = seconds/min
+seconds = seconds % min
+
+print("The duration is ", "%d:%02d:%02d:%02d." % (days, hours, minutes, seconds))
