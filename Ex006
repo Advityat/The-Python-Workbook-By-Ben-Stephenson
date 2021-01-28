@@ -1,0 +1,5 @@
+meal_amount = float(input("How much did your meal cost? "))
+tax = meal_amount * 0.05
+tip = meal_amount * 0.18 
+total_amount = meal_amount + tax + tip
+print(total_amount)
