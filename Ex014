@@ -1,0 +1,7 @@
+height = float(input("Enter your height in metres: "))
+feet = height * 3.28084
+inches = feet * 12
+cm = inches * 2.54
+print("Your height in feet is", feet)
+print("Your height in inches is", inches)
+print("Your heigh in centimetre", cm)
