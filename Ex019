@@ -1,0 +1,12 @@
+import math
+from math import sqrt
+
+g = 9.8
+
+h = float(input("From what heigh are you dropping your object? "))
+
+v = sqrt(2 * g * h)
+final_velocity = round(v, 2)
+
+print(h)
+print("Therefore your final velocity is ", final_velocity, "m/s^2")
