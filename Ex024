@@ -1,0 +1,6 @@
+days = float(input("Enter then number of days: "))
+hours = float(input("Enter the number of hours: "))
+minutes = float(input("Enter the number of minutes: "))
+seconds = float(input("Enter the number of seconds: "))
+duration = (days * 86400) + (hours * 3600) + (minutes * 60) + (seconds)
+print(duration)
