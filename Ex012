@@ -1,0 +1,10 @@
+import math
+
+lat_one = (float(input("What is your first latitude? ")))
+long_one = (float(input("What is your first longitude? ")))
+lat_two = (float(input("What is your second latitude? ")))
+long_two = (float(input("What is your second longitude? ")))
+distance = 6371.01 * (math.sin(lat_one) * math.sin(lat_two)) + math.cos (lat_one) * math.cos (lat_two) * math.cos (long_two - long_one)
+print(lat_one, "°", ",",long_one, "°")
+print(lat_two, "°", ",", long_two, "°")
+print("The distance between your two points is", distance,"km.")
