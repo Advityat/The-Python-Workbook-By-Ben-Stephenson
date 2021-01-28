@@ -1,0 +1,26 @@
+import math
+from math import log10
+
+print("Please make your first integer (a) greater than your second integer (b)")
+a = float(input("Enter your first integer : "))
+b = float(input("Enter your second integer : "))
+l = "S=========================================================S"
+print(l)
+print (a)
+print(l)
+print (b)
+print(l)
+print(a, "+", b, "=", a+b)
+print(l)
+print(a, "-", b, "=", a-b)
+print(l)
+print(a, "*", b, "=", a*b)
+print(l)
+print(a, "/", b, "=", a/b)
+print(l)
+print(a, "%", b, "%", a+b)
+print(l)
+print("The base 10 logarith of", a, "is", log10(a))
+print(l)
+print(a, "^", b, "=", a**b)
+print(l)
