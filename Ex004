@@ -1,0 +1,7 @@
+length = float(input("Enter the length of the object : "))
+breadth = float(input("Enter the breadth of the object : "))
+print(length)
+print(breadth)
+area = length * breadth
+measurement = area/43560
+print(measurement, "acres")
