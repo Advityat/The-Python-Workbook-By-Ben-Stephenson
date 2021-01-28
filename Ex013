@@ -1,0 +1,26 @@
+penny = 1
+nickel = 5
+dimes = 10
+quarter = 25
+loonies = 14
+toonies = 20
+
+cents = int(input("Enter an amount of money you have in cents: "))
+if cents >= 20:
+    toonies = cents / toonies
+    cents % toonies
+if cents >= 14:
+    loonies = cents / loonies
+    cents % loonies
+if cents >= 25:
+    quarter = cents / quarter
+    cents % quarter
+if cents >= 10:
+    dimes = cents / dimes
+    cents % dimes
+if cents >= 5:
+    nickel = cents / nickel
+if cents >= 1:
+    penny = cents / penny
+    cents % penny
+    print("The coins are: toonies", toonies, "loonies", loonies, "quarters", quarter, "dime", dimes, "nickel", nickel, "penny", penny)
