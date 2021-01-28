@@ -1,0 +1,8 @@
+import math
+
+one = float(input("What is the length of your first side in metres? "))
+two = float(input("What is the length of your second side in metres? "))
+three = float(input("What is the length of your third side in metres? "))
+s = (one + two + three)/2
+x = math.sqrt(s*(s-one)*(s-two)*(s-three))
+print(s)
