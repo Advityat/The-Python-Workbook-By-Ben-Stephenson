@@ -1,0 +1,5 @@
+P = float(input("Enter the given pressure in Pascals : "))
+V = float(input("Enter the given volume in Litres : "))
+n = float(input("Enter the given ))
+
+#INCOMPLETE
