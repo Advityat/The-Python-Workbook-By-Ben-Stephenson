@@ -1,0 +1,12 @@
+import math
+from math import pi
+
+r = float(input("What is the radius of your cylinder? "))
+h = float(input("What is the height of your cylinder? "))
+a = 2 * pi * r * (r + h)
+
+rounded_value = round(a, 1)
+
+print(r)
+print(h)
+print("The area of your cylinder is", rounded_value, "squared unit")
