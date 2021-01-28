@@ -1,0 +1,6 @@
+Lesser_Deposit = 0.10
+Greater_Deposit = 0.25
+less = int(input("How many containers of 1l or less do you have? "))
+more = int(input("How many containers of 1l or more do you have? "))
+refund_amount = less * Lesser_Deposit + more * Greater_Deposit
+print("Your refund amount is $",refund_amount,". Good job keeping the environment clean and green!")
