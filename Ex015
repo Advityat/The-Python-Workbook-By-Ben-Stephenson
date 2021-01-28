@@ -1,0 +1,3 @@
+feet = float(input("Please enter your measurement in feet: "))
+yards = feet / 3
+print("Your measurement in yards is", yards)
