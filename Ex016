@@ -1,0 +1,9 @@
+import math
+from math import pi
+
+radius = float(input("Enter the radius in centimetre : "))
+circle = pi * radius ** 2
+print("The area of your circle would be", circle, "centimetre squared")
+
+sphere = (4/3) * pi * radius ** 3
+print("The area of your sphere would be", sphere, "centimetre squared")
