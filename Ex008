@@ -1,0 +1,13 @@
+widget = float(input("How many widgets do you wish to buy? "))
+gizmo = float(input("How many gizmos do you wish to buy? "))
+widget_weight = widget * 75
+gizmo_weight = gizmo * 112
+l = "S=========================================================S"
+x = gizmo_weight + widget_weight
+print(l)
+print("The total weight of your widgets is : ", widget_weight, "grams")
+print(l)
+print("The total weight of your gizmos is : ", gizmo_weight, "grams")
+print(l)
+print("The total weight of your items is : ", x, "grams")
+print(l)
