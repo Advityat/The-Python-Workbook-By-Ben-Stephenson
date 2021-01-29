@@ -1,0 +1,10 @@
+kg = float(input("Enter a weight in kilo-pascals: "))
+pp = kg * 0.145038
+mm = kg * 7.50
+atm = kg * 0.00986923266
+p = round(pp, 2)
+m = round(mm, 2)
+a = round(atm, 2)
+print("Your given weight is", p, "pounds per square inch")
+print("Your given weight is", m, "millimetre of mercury")
+print("Your given weight is", a, "atmosphere units")
