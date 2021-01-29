@@ -1,0 +1,7 @@
+c = float(input("Enter a temperature in degrees celcius: "))
+fa = (c * 9/5) + 32
+ke = c + 273.15
+f = round(fa, 1)
+k = round(ke, 1)
+print("Your temperature in Fahrenheit is " + str(f) + "°F")
+print("Your temperature in Kelvin is " + str(k) + "K")
