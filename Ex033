@@ -1,0 +1,9 @@
+price = 3.49
+num = float(input("Enter the amount of loaves of bread you are buying: "))
+price_2 = (price * 40/100) * num
+price_3 = price * num
+price_4 = price * 40/100
+price_ = round(price_4, 2)
+print("The regular price for bread is: ", price)
+print("The discounted price for day old bread is: ", price_)
+print("The total price of your bread is: ", round(price_2, 2))
