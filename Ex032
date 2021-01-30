@@ -1,0 +1,8 @@
+x = int(input("Input first number: "))
+y = int(input("Input second number: "))
+z = int(input("Input third number: "))
+
+one = min(x, y, z)
+three = max(x, y, z)
+two = (x + y + z) - one - three
+print("The given numbers is ascending order are: ", one, two, three)
